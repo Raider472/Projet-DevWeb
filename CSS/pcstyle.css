@@ -1,6 +1,10 @@
 body {
+    font-family: VT323, arial, helvetica, sans-serif;
     margin: 0;
-    background-color: aquamarine;
+    background-color: rebeccapurple;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -8,10 +12,7 @@ header {
     padding: 15px;
     background-color: gray;
     text-align: center;
-    font-style: url(police/VT323-Regular.ttf);
-    text-shadow: 1em;
     font-size: x-large;
-    font-family: 'VT232';
 } 
 
 header nav ul li {
@@ -37,6 +38,7 @@ hr {
 footer {
     padding: 15px;
     background-color: brown;
+    margin-top: auto;
 }
 
 footer nav ul li {
