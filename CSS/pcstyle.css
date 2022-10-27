@@ -4,15 +4,24 @@ body {
     background-color: rebeccapurple;
     min-height: 100vh;
     display: flex;
+    color: white;
     flex-direction: column;
+    background-image: url(../CSS/images-css/fond\ site\ web.png);
+    background-position: calc(-180);
 }
 
 header {
     margin: 0;
-    padding: 15px;
+    padding: 3em;
     background-color: gray;
     text-align: center;
     font-size: x-large;
+    background-image: url(../CSS/images-css/vaporwave-gif-1.gif);
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: center;
+    image-rendering: optimizeQuality;
+    display: inline;
 } 
 
 header nav ul li {
@@ -36,7 +45,7 @@ hr {
 }
 
 footer {
-    padding: 15px;
+    padding: 3em;
     background-color: brown;
     margin-top: auto;
 }
@@ -59,7 +68,7 @@ footer nav ul li {
 
 a:link, a:visited {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 /*Nico*/
