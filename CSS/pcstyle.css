@@ -61,7 +61,7 @@ footer nav ul li {
 
 @font-face {
     font-family: "VT323";
-    src: url(../CSS/police/VT323-Regular.ttf), format('truetype');
+    src: url("/CSS/police/VT323-Regular.ttf"), format('truetype');
 }
 
 a:link, a:visited {
