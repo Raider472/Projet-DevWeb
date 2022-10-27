@@ -1,13 +1,20 @@
-header{
+body {
+    margin: 0;
+    background-color: aquamarine;
+}
+
+header {
+    margin: 0;
+    padding: 15px;
+    background-color: gray;
     text-align: center;
-    margin: 10px 10px 10px 10px;
-    border: 5px 5px 5px 5px;
+    font-style: url(police/VT323-Regular.ttf);
     text-shadow: 1em;
     font-size: x-large;
 } 
 
 header nav ul li {
-    margin: auto;
+    margin: 0;
     text-align: center;
     list-style-type : none;
     color: black;
@@ -15,6 +22,10 @@ header nav ul li {
     width: 20%;
     border: 1px solid black;
     background-color: grey;
+}
+
+hr {
+    margin: 0;
 }
 
 footer nav ul li {
