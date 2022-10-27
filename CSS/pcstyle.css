@@ -28,6 +28,11 @@ hr {
     margin: 0;
 }
 
+.contenue_body {
+    margin: 0 20% 0 20%;
+    padding: 10px;
+}
+
 footer {
     padding: 15px;
     background-color: brown;
