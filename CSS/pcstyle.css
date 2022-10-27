@@ -1,11 +1,11 @@
 a {
     text-decoration:none;
-    list-style-type : none;
     color: black;
 }
 nav ul li a {
     text-align: center;
     margin: auto;
+    list-style-type : none;
 }
 
 header{
