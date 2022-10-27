@@ -28,8 +28,13 @@ hr {
     margin: 0;
 }
 
+footer {
+    padding: 15px;
+    background-color: brown;
+}
+
 footer nav ul li {
-    margin: auto;
+    margin: 0;
     text-align: center;
     list-style-type : none;
     color: black;
