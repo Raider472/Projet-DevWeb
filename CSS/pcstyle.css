@@ -1,5 +1,5 @@
 body {
-    font-family: VT323, arial, helvetica, sans-serif;
+    font-family: VT323, monospace, arial, helvetica, sans-serif;
     margin: 0;
     min-height: 100vh;
     display: flex;
