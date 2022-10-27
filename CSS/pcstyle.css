@@ -5,7 +5,7 @@ a {
 nav ul li a {
     text-align: center;
     margin: auto;
-    list-style-type : none;
+    list-style-type : none; /* pour enlever les points de la liste Li */ 
 }
 
 header{
