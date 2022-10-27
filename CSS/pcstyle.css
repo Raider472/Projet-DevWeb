@@ -28,6 +28,11 @@ footer nav ul li {
     background-color: grey;
 }
 
+@font-face {
+    font-family: VT323;
+    src: url(CSS/police/VT323-Regular.ttf);
+}
+
 /*Nico*/
 
 /*Gabriel/*
