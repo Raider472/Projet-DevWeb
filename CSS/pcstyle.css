@@ -2,11 +2,22 @@ header{
     text-align: center;
     margin: 10px 10px 10px 10px;
     border: 5px 5px 5px 5px;
-    font-style: url(police/VT323-Regular.ttf);
     text-shadow: 1em;
+    font-size: x-large;
 } 
 
 header nav ul li {
+    margin: auto;
+    text-align: center;
+    list-style-type : none;
+    color: black;
+    display: inline-block;
+    width: 20%;
+    border: 1px solid black;
+    background-color: grey;
+}
+
+footer nav ul li {
     margin: auto;
     text-align: center;
     list-style-type : none;
