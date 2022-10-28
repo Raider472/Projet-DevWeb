@@ -1,6 +1,8 @@
 @font-face {
     font-family: "VT323";
     src: url("VT323-Regular.ttf"), format('truetype');
+    font-family: "Alata";
+    src: url("Alata-Regylar.ttf"), format('truetype');
 }
 
 body {
@@ -15,9 +17,16 @@ body {
     line-height: 1.5em;
 }
 
+body p {
+    font-family: Alata, monospace, arial, helvetica, sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 2em;
+}
+
 body h2 {
     text-align: center;
-    font-size: xx-large;
+    font-size: 42px;
     padding: 2% 0 2% 0;
     text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black,
     0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black,
@@ -30,7 +39,6 @@ body h2 {
 header {
     margin: 0;
     padding: 3em;
-    background-color: gray;
     text-align: center;
     font-size: x-large;
     background-image: url(../CSS/images-css/vaporwave-gif-1-reversed.gif);
@@ -42,7 +50,6 @@ header {
 } 
 
 header h1 {
-    /* Le divertissement des annees 80 */
     display: flex;
     justify-content: space-around;
     text-align: center;
@@ -129,6 +136,16 @@ footer nav ul li {
 a:link, a:visited {
     text-decoration: none;
     color: white;
+}
+
+a:hover {
+    color: paleturquoise;
+}
+
+#gifciné {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*Nico*/
