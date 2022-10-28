@@ -20,13 +20,18 @@ header {
     background-color: gray;
     text-align: center;
     font-size: x-large;
-    background-image: url(../CSS/images-css/vaporwave-gif-1.gif);
+    background-image: url(../CSS/images-css/vaporwave-gif-5.gif);
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position: center;
+    background-position: end;
     image-rendering: initial;
-    display: inline;
+    display: table-row;
 } 
+
+body header h1 {
+    font-size: x-large;
+    text-align: center;
+}
 
 header nav ul li {
     margin: 0;
@@ -43,7 +48,7 @@ hr {
     margin: 0;
 }
 
-.contenue_body {
+.contenu_body {
     margin: 0 20% 0 20%;
     padding: 10px;
 }
