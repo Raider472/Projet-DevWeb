@@ -11,7 +11,7 @@ body {
     color: white;
     flex-direction: column;
     background-image: url(../CSS/images-css/fond\ site\ web.png);
-    background-position: calc(-180);
+    line-height: 1.5em;
 }
 
 header {
@@ -51,6 +51,11 @@ hr {
 footer {
     padding: 3em;
     margin-top: auto;
+    text-align: center;
+}
+
+.createurs {
+    margin-bottom: 15px;
 }
 
 footer nav ul li {
