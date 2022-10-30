@@ -70,7 +70,7 @@ body {
     display: flex;
     color: white;
     flex-direction: column;
-    background-image: url(../CSS/images-css/fond\ site\ web.png);
+    background-image: url(../CSS/images-css/fond_site_web.png);
     background-size: 100%;
     line-height: 1.5em;
 }
