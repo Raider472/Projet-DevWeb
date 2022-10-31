@@ -85,8 +85,9 @@ body h2 {
     text-align: center;
     font-size: 42px;
     padding: 2% 0 2% 0;
-    -webkit-text-stroke: 0.8px black;
-    text-shadow: 0 0 4px black;
+    text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black,
+    0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black,
+    0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
 }
 
 header {
@@ -116,8 +117,9 @@ header h1 {
     mix-blend-mode: normal;
     border-color: black;
     border-style: solid;
-    -webkit-text-stroke: 0.8px black;
-    text-shadow: 0 0 4px black;
+    text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black,
+    0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black,
+    0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
     padding-bottom: 1em;
 }
 
@@ -133,8 +135,9 @@ header nav ul li {
     display: inline-flex;
     justify-content: center;
     font-size: 42px;
-    -webkit-text-stroke: 0.8px black;
-    text-shadow: 0 0 4px black;
+    text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black,
+    0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black,
+    0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
 }
 
 .contenu_body {
@@ -148,8 +151,9 @@ footer {
     text-align: center;
     border-top: 2px solid #FFFFFF;
     font-size: 20px;
-    -webkit-text-stroke: 0.8px black;
-    text-shadow: 0 0 4px black;
+    text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black,
+    0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black,
+    0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
 }
 
 .createurs {
@@ -166,8 +170,9 @@ footer nav ul li {
     background-color: hidden;
     padding-top: 1em;
     font-size: 32px;
-    -webkit-text-stroke: 0.8px black;
-    text-shadow: 0 0 4px black;
+    text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black,
+    0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black,
+    0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
 }
 
 a:link, a:visited {
