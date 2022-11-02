@@ -74,18 +74,27 @@ body {
     line-height: 1.5em;
 }
 
-body p {
+.welcoming_text {
     font-family: Alata, monospace, arial, helvetica, sans-serif;
     font-size: 16px;
     letter-spacing: 1px;
     line-height: 2em;
 }
 
-body h2 {
+.front_page_title {
     line-height: 100%;
     text-align: center;
     font-size: 42px;
     padding: 2% 0 2% 0;
+    text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black,
+    0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black,
+    0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
+}
+
+body h2 {
+    text-align: center;
+    font-size: 42px;
+    padding: 1% 0 1% 0;
     text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black,
     0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black,
     0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
@@ -140,7 +149,7 @@ header nav ul li {
     0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
 }
 
-.contenu_body {
+.body_content {
     margin: 0 20% 2% 20%;
     padding: 10px;
 }
@@ -156,8 +165,9 @@ footer {
     0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
 }
 
-.createurs {
-    margin: 0 10% 1% 10%
+.creators {
+    font-size: 16px;
+    padding: 3% 0 0 0;
 }
 
 footer nav ul li {
@@ -165,7 +175,7 @@ footer nav ul li {
     list-style-type : none;
     color: black;
     display: inline-block;
-    padding: 1%;
+    padding: 0 3% 0 3%;
     border: none;
     padding-top: 1em;
     font-size: 32px;
