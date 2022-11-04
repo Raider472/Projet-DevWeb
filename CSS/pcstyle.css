@@ -1,16 +1,9 @@
-* {
-    text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black,
-    0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black,
-    0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black,
-    0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
-}
-
 body {
     font-family: VT323, monospace, arial, helvetica, sans-serif;
     margin: 0 0 2em 0;
     min-height: 100vh;
     display: block;
-    color: #FFFFFF;
+    color: whitesmoke;
     flex-direction: column;
     background-image: url(../CSS/images-css/fond_site_web.png);
     background-size: 100%;
@@ -27,15 +20,9 @@ body {
 .front_page_title {
     line-height: 100%;
     text-align: center;
-    font-size: 48px;
-    padding: 1em 0 1em 0;
-    /* Voir pourquoi le text-shadow ne marche pas sur cette classe */
-}
-
-h2 {
-    text-align: center;
-    font-size: 42px;
-    padding: 1% 0 1% 0;
+    font-size: 28px;
+    padding: 0.5em 0 0.5em 0;
+    text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c, 6px 6px 0 #727272, 8px 8px 0 #494949;
 }
 
 header {
@@ -49,6 +36,7 @@ header {
     background-position: center;
     image-rendering: initial;
     border-bottom: 2px solid #FFFFFF;
+    text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c, 6px 6px 0 #727272, 8px 8px 0 #494949;
 } 
 
 header h1 {
@@ -56,7 +44,7 @@ header h1 {
     text-align: center;
     font-style: normal;
     font-weight: 400;
-    font-size: 56px;
+    font-size: 62px;
     line-height: 48px;
     letter-spacing: 0.05em;
     text-transform: uppercase;
@@ -80,8 +68,8 @@ header li {
 }
 
 .body_content {
-    margin: 0 20% 2% 20%;
-    padding: 10px;
+    margin: 0 20% 3em 20%;
+    padding-bottom: 2em;
 }
 
 footer {
@@ -96,7 +84,7 @@ footer {
 
 .creators {
     font-size: 16px;
-    padding: 3% 0 0 0;
+    padding: 2em 0 0 0;
 }
 
 footer li {
@@ -104,10 +92,10 @@ footer li {
     list-style-type : none;
     color: black;
     display: inline-block;
-    padding: 0 3% 0 3%;
+    padding: 0 2em 0 2em;
     border: none;
-    padding-top: 1em;
     font-size: 32px;
+    text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c, 6px 6px 0 #727272, 8px 8px 0 #494949;
 }
 
 a:link, a:visited {
