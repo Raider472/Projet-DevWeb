@@ -1,38 +1,16 @@
-/* Ceci est un reseter, il permet de mettre toutes les valeurs à 0 */
-
 * {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 1em;
-	font: inherit;
-	vertical-align: baseline;
+    text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black,
+    0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black,
+    0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black,
+    0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
 }
-
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-/*Fin du reseter*/
 
 body {
     font-family: VT323, monospace, arial, helvetica, sans-serif;
-    margin: 0 0 2% 0;
+    margin: 0 0 2em 0;
     min-height: 100vh;
-    display: flex;
-    color: white;
+    display: block;
+    color: #FFFFFF;
     flex-direction: column;
     background-image: url(../CSS/images-css/fond_site_web.png);
     background-size: 100%;
@@ -41,7 +19,7 @@ body {
 
 .welcoming_text {
     font-family: Alata, monospace, arial, helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     letter-spacing: 1px;
     line-height: 2em;
 }
@@ -49,22 +27,15 @@ body {
 .front_page_title {
     line-height: 100%;
     text-align: center;
-    font-size: 42px;
-    padding: 2% 0 2% 0;
-    text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black,
-    0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black,
-    0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black,
-    0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
+    font-size: 48px;
+    padding: 1em 0 1em 0;
+    /* Voir pourquoi le text-shadow ne marche pas sur cette classe */
 }
 
 h2 {
     text-align: center;
     font-size: 42px;
     padding: 1% 0 1% 0;
-    text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black,
-    0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black,
-    0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black,
-    0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
 }
 
 header {
@@ -81,7 +52,6 @@ header {
 } 
 
 header h1 {
-    display: flex;
     justify-content: space-around;
     text-align: center;
     font-style: normal;
@@ -92,13 +62,8 @@ header h1 {
     text-transform: uppercase;
     color: #FFFFFF;
     mix-blend-mode: normal;
-    border-color: black;
-    border-style: solid;
-    text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black,
-    0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black,
-    0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black,
-    0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
-    padding-bottom: 1em;
+    border: hidden;
+    padding-bottom: 0.5em;
 }
 
 header li {
@@ -107,15 +72,11 @@ header li {
     list-style-type : none;
     color: black;
     display: flex;
-    padding: 0 4% 0 4%;
+    padding: 0 3em 0 3em;
     border: none;
-    display: inline-flex;
+    display: inline-block;
     justify-content: center;
     font-size: 42px;
-    text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black,
-    0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black,
-    0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black,
-    0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
 }
 
 .body_content {
@@ -124,17 +85,13 @@ header li {
 }
 
 footer {
-    padding: 3em 0 1em 0;
+    padding: 2em 0 1em 0;
     text-align: center;
     border-top : 2px solid white;
     position : absolute;
     left : 0px;
     right : 0px;
     font-size: 20px;
-    text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black,
-    0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black,
-    0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black,
-    0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
 }
 
 .creators {
@@ -151,10 +108,6 @@ footer li {
     border: none;
     padding-top: 1em;
     font-size: 32px;
-    text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black,
-    0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black,
-    0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black,
-    0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
 }
 
 a:link, a:visited {
