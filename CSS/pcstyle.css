@@ -6,7 +6,6 @@
 	font-size: 1em;
 	font: inherit;
 	vertical-align: baseline;
-    line-height: 1;
 }
 
 ol, ul {
@@ -122,8 +121,10 @@ header li {
 footer {
     padding: 3em 0 1em 0;
     text-align: center;
-    /* Refaire border top */
-    border-top: 2px solid #FFFFFF;
+    border-top : 2px solid white;
+    position : absolute;
+    left : 0px;
+    right : 0px;
     font-size: 20px;
     text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black,
     0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black,
