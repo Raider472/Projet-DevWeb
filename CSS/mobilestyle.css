@@ -1,7 +1,40 @@
-@media screen and (max-width: 500px)
+@media screen and (max-width: 1351px)
 {
+    header {
+        padding-top: 1em
+    }
+
+    header h1 {
+        letter-spacing: 0px;
+        font-size: 5vh;
+    }
+
+    header li {
+        display: flex;
+        padding: 0;
+        font-size: 4vh;
+        line-height: 85%;
+    }
+
     .body_content {
-        color: red;
+        text-align: center;
+        margin: 0 10% 3em 10%;
+    }
+
+    .front_page_title {
+        font-size: 24px;
+    }
+
+    .welcoming_text {
+        font-size: 14px;
+    }
+
+    footer nav ul {
+        line-height: 4vh;
+    }
+
+    footer li {
+        display: inherit;
     }
 }
 
