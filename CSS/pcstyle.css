@@ -92,6 +92,7 @@ footer {
     left : 0px;
     right : 0px;
     font-size: 20px;
+    box-shadow: 0 0 40px 30px rgb(0, 17, 144);
 }
 
 footer nav ul {
