@@ -63,8 +63,7 @@ main {
 }
 
 .welcoming_text {
-    font-family: Alata, monospace, arial, helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 22px;
     letter-spacing: 1px;
     line-height: 2em;
 }
@@ -140,13 +139,6 @@ img {
     font-display: swap;
 }
 
-@font-face {
-    font-family: 'Alata';
-    src: url('../CSS/fonts/Alata-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
 
 /*Nico*/
 
