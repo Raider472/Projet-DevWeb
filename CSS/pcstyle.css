@@ -8,6 +8,7 @@ body {
     background-image: url(../CSS/images-css/fond_site_web.png);
     background-size: 100%;
     line-height: 1.5em;
+    
 }
 
 header {
@@ -22,6 +23,7 @@ header {
     image-rendering: initial;
     border-bottom: 2px solid #FFFFFF;
     text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c, 6px 6px 0 #727272, 8px 8px 0 #494949;
+    box-shadow: 0 30px 40px rgb(0, 17, 144);
 } 
 
 header h1 {
