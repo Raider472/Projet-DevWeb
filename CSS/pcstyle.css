@@ -67,6 +67,10 @@ header li {
     line-height: 2em;
 }
 
+.legal_mention {
+    line-height: 1em;
+}
+
 .front_page_title {
     text-align: center;
     font-size: 28px;
