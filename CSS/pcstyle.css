@@ -121,8 +121,8 @@ a:hover {
     color: rgb(99, 228, 233);
 }
 
-#gifciné {
-    display: block;
+img {
+    display: flex;
     margin-left: auto;
     margin-right: auto;
 }
