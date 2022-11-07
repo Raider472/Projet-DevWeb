@@ -21,7 +21,7 @@ header {
     background-size: cover;
     background-position: center;
     image-rendering: initial;
-    border-bottom: 2px solid rgb(0, 238, 255);
+    border-bottom: 2px solid #00EEFF;
     text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c, 6px 6px 0 #727272, 8px 8px 0 #494949;
     box-shadow: 0 30px 40px rgb(0, 17, 144);
 } 
@@ -87,7 +87,7 @@ main {
 footer {
     padding: 2em 0 1em 0;
     text-align: center;
-    border-top : 2px solid rgb(0, 238, 255);
+    border-top : 2px solid #00EEFF;
     position : absolute;
     left : 0px;
     right : 0px;
@@ -120,7 +120,7 @@ a:link, a:visited {
 }
 
 a:hover {
-    color: rgb(99, 228, 233);
+    color: #00EEFF;
 }
 
 img {
