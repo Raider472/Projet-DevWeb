@@ -114,10 +114,37 @@ footer li {
 form {
     text-align: justify;
     margin: 3em 0 1em 0;
+    text-align: center;
 }
 
 fieldset {
     border: 2px solid #00EEFF;
+}
+
+legend {
+    font-size: 45px;
+    text-align: center;
+    text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c, 6px 6px 0 #727272, 8px 8px 0 #494949;
+}
+
+textarea {
+    background-color: #7a7a7a;
+    border-radius: 10px;
+    border: 2px solid #00EEFF;
+}
+
+input {
+    background-color: #7a7a7a;
+    border-radius: 10px;
+    border: 2px solid #00EEFF;
+}
+
+input::placeholder {
+    color: #FFFFFF;
+}
+
+textarea::placeholder {
+    color: #FFFFFF; 
 }
 
 a:link, a:visited {
