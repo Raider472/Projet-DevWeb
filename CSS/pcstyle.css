@@ -60,12 +60,9 @@ header li {
 main {
     margin: 0 20% 3em 20%;
     padding-bottom: 2em;
-}
-
-.welcoming_text {
-    font-size: 25px;
     letter-spacing: 1px;
     line-height: 2em;
+    font-size: 25px;
 }
 
 .legal_mention {
