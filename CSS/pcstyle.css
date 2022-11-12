@@ -180,6 +180,20 @@ img {
     font-size: 42px;
 }
 
+.mentions {
+    text-align: justify;
+}
+
+.mentions > h2 {
+    text-align: center;
+    font-size: 42px;
+    text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c, 6px 6px 0 #727272, 8px 8px 0 #494949;
+}
+
+#mentions_title {
+    font-size: 55px;
+}
+
 /* -----FONT------ */
 
 @font-face {
