@@ -168,6 +168,16 @@ img {
 
 #faq {
     list-style: square;
+    padding: 1em 0 0 0;
+}
+
+#faq li {
+    font-size: 28px;
+}
+
+#faq li > h2{
+    text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c, 6px 6px 0 #727272, 8px 8px 0 #494949;
+    font-size: 42px;
 }
 
 /* -----FONT------ */
