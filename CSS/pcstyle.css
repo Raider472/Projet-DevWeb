@@ -140,11 +140,15 @@ input {
 }
 
 input::placeholder {
+    font-family: VT323, monospace, arial, helvetica, sans-serif;
     color: #FFFFFF;
+    font-size: 18px;
 }
 
 textarea::placeholder {
+    font-family: VT323, monospace, arial, helvetica, sans-serif;
     color: #FFFFFF; 
+    font-size: 18px;
 }
 
 a:link, a:visited {
