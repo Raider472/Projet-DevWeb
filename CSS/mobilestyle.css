@@ -38,6 +38,14 @@
         display: inherit;
         margin: 1em 0 1em 0;
     }
+
+    fieldset {
+        min-width: auto;
+    }
+
+    legend {
+        font-size: 39px;
+    }
 }
 
 /*Nico*/
