@@ -6,7 +6,7 @@ body {
     color: whitesmoke;
     flex-direction: column;
     background-image: url(../CSS/images-css/fond_site_web.png);
-    background-size: 100%;
+    background-size: cover;
     line-height: 1.5em;
     text-align: justify;
 }
