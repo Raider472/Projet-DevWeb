@@ -213,6 +213,38 @@ video {
 
 /*Gabriel*/
 
+.nav_menu_video_game {
+    border: white solid 4px;
+    border-radius: 4px;
+    background-image: url(../CSS/images-css/atari_gif.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: gray;
+    max-width: 26%;
+    text-align: center;
+}
+
+.nav_menu_video_game ol {
+    padding: 0;
+}
+
+.nav_menu_video_game li {
+    list-style: none;
+}
+
+.nav_menu_video_game ol li > a:link {
+    color: green;
+}
+
+.nav_menu_video_game ol li > a:visited {
+    color: green;
+}
+
+.nav_menu_video_game ol li > a:hover {
+    color:greenyellow;
+}
+
 /*Jean-Gab*/
 
 /*Mohamed*/
