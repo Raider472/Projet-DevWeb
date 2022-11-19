@@ -225,12 +225,13 @@ figcaption {
     background-repeat: no-repeat;
     background-position: center;
     color: gray;
-    max-width: 26%;
+    max-width: 30%;
     text-align: center;
 }
 
 .nav_menu_video_game ol {
     padding: 0;
+    line-height: 3em;
 }
 
 .nav_menu_video_game li {
