@@ -170,6 +170,11 @@ video {
     margin-right: auto;
 }
 
+figcaption {
+    caption-side: bottom;
+    text-align: center;
+}
+
 #faq {
     list-style: square;
     padding: 1em 0 0 0;
@@ -208,7 +213,6 @@ video {
     font-display: swap;
 }
 
-
 /*Nico*/
 
 /*Gabriel*/
@@ -246,5 +250,33 @@ video {
 }
 
 /*Jean-Gab*/
+
+.Bloc_2_images {
+    height: 300px;
+}
+
+#Walkman_Image_1 {
+    position: relative;
+    right: 230px;
+}
+
+#Walkman_Image_2 {
+    position: relative;
+    bottom: 325px;
+    left: 245px;
+}
+
+#Michael_Jackson_Album_Off_The_Wall {
+    position: relative;
+    right: 230px;
+}
+
+
+#Michael_Jackson_Album_Thriller {
+    position: relative;
+    bottom: 325px;
+    left: 245px;
+}
+
 
 /*Mohamed*/
