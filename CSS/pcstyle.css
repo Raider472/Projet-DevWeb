@@ -217,6 +217,17 @@ figcaption {
 
 /*Gabriel*/
 
+.title_video_game {
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c, 6px 6px 0 #727272, 8px 8px 0 #494949;
+}
+
+.div_menu_video_game {
+    display: flex;
+    justify-content: center;
+}
+
 .nav_menu_video_game {
     border: white solid 4px;
     border-radius: 4px;
@@ -224,13 +235,12 @@ figcaption {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    color: gray;
     max-width: 30%;
     text-align: center;
 }
 
 .nav_menu_video_game ol {
-    padding: 0;
+    padding: 0 1em 0 1em;
     line-height: 3em;
 }
 
@@ -248,6 +258,28 @@ figcaption {
 
 .nav_menu_video_game ol li > a:hover {
     color:greenyellow;
+}
+
+.sub_title_video_game {
+    text-decoration: underline;
+}
+
+.figure_video_game_1 {
+    max-width: 500px;
+    color: greenyellow;
+}
+
+.figure_video_game_1 > img {
+    max-width: inherit;
+}
+
+.figure_video_game {
+    max-width: 500px;
+    color: greenyellow;
+}
+
+.figure_video_game > img {
+    max-width: inherit;
 }
 
 /*Jean-Gab*/
