@@ -231,17 +231,18 @@ figcaption {
 .nav_menu_video_game {
     border: white solid 4px;
     border-radius: 4px;
-    background-image: url(../CSS/images-css/atari_gif.gif);
+    background-image: url(../CSS/images-css/super_mario_bros_background.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    max-width: 30%;
+    max-width: 35%;
     text-align: center;
 }
 
 .nav_menu_video_game ol {
     padding: 0 1em 0 1em;
     line-height: 3em;
+    font-size: 30px;
 }
 
 .nav_menu_video_game li {
@@ -249,11 +250,11 @@ figcaption {
 }
 
 .nav_menu_video_game ol li > a:link {
-    color: green;
+    color: black;
 }
 
 .nav_menu_video_game ol li > a:visited {
-    color: green;
+    color: black;
 }
 
 .nav_menu_video_game ol li > a:hover {
@@ -267,20 +268,93 @@ figcaption {
 .figure_video_game_1 {
     max-width: 500px;
     color: greenyellow;
+    float: right;
 }
 
 .figure_video_game_1 > img {
     max-width: inherit;
 }
 
-.figure_video_game {
-    max-width: 500px;
-    color: greenyellow;
+.text_align_video_game_1 {
+    text-align: left;
 }
 
-.figure_video_game > img {
+.figure_video_game_2 {
+    max-width: 500px;
+    color: greenyellow;
+    float: left;
+}
+
+.figure_video_game_2 > img {
     max-width: inherit;
 }
+
+.figure_video_game_3 {
+    max-width: 500px;
+    color: greenyellow;
+    float: right;
+}
+
+.figure_video_game_3 > img {
+    max-width: inherit;
+}
+
+.article_crash_83 p {
+    margin-bottom: 2.5em;
+}
+
+.article_renaissance {
+    clear: both;
+}
+
+.legend_of_zelda_div p {
+    text-align: right;
+}
+
+.legend_of_zelda_div img {
+    float: left;
+    padding: 0 0.5em 0.5em 0;
+    margin-right: 0.5em;
+}
+
+.metroid_div p {
+    text-align: left;
+}
+
+.metroid_div img {
+    float: right;
+    padding: 0 0 0.5em 0.5em;
+    margin-left: 2em;
+}
+
+.castlevania_div p {
+    text-align: center;
+}
+
+.legend_of_zelda_div, .metroid_div, .castlevania_div {
+    margin-bottom: 3em;
+}
+
+.honorable_mention {
+    text-align: center;
+    padding: 2em;
+}
+
+.game_list_end ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.game_list_end li {
+    padding: 2em;
+    min-width: 10%;
+}
+
+.game_list_end img {
+    padding-top: 1em;
+}
+
 
 /*Jean-Gab*/
 
