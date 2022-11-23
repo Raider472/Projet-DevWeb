@@ -58,6 +58,11 @@
         margin-left: auto;
         margin-right: auto;
     }
+
+    .Bloc_2_images {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 /*Nico*/

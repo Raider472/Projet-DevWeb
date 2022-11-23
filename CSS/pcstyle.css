@@ -359,39 +359,10 @@ figcaption {
 /*Jean-Gab*/
 
 .Bloc_2_images {
-    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
 }
-
-#Walkman_Image_1 {
-    position: relative;
-    right: 230px;
-}
-
-#Walkman_Image_2 {
-    position: relative;
-    bottom: 325px;
-    left: 245px;
-}
-
-#Michael_Jackson_Album_Off_The_Wall {
-    position: relative;
-    right: 230px;
-}
-
-
-#Michael_Jackson_Album_Thriller {
-    position: relative;
-    bottom: 325px;
-    left: 245px;
-}
-
-#Michael_Jackson_Hollywodd_Walk_of_Fame_Caption {
-    font-size: 0.8em;
-    max-width: 270px;
-    margin: 0% 33% 0% 37%;
-}
-
-
 
 
 /*Mohamed*/
