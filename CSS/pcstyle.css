@@ -376,7 +376,12 @@ figcaption {
 
 }
 
-.Michael_Jackson_Hollywodd_Walk_of_Fame_Caption {
-    white-space: pre-line;
+#Michael_Jackson_Hollywodd_Walk_of_Fame_Caption {
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0.8em;
 }
+
+
 /*Mohamed*/
