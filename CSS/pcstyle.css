@@ -235,7 +235,6 @@ figcaption {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    max-width: 35%;
     text-align: center;
 }
 
@@ -340,14 +339,19 @@ figcaption {
     padding: 2em;
 }
 
+.game_list_end h3 {
+    text-align: center;
+}
+
 .game_list_end ul {
+    padding: 0;
     display: flex;
     flex-direction: row;
     list-style: none;
 }
 
 .game_list_end li {
-    padding: 2em;
+    padding: 1em;
     min-width: 10%;
 }
 
