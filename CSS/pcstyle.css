@@ -357,6 +357,7 @@ figcaption {
 
 .game_list_end img {
     padding-top: 1em;
+    max-width: 100%;
 }
 
 
