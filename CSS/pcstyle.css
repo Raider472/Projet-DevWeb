@@ -359,10 +359,20 @@ figcaption {
 /*Jean-Gab*/
 
 .Bloc_2_images {
+    margin-left: 180px;
+    margin-right: 180px;
+    display: flex;
+
+}
+
+.Bloc_3_images {
     margin-left: auto;
     margin-right: auto;
     display: flex;
+
 }
 
-
+.Michael_Jackson_Hollywodd_Walk_of_Fame_Caption {
+    white-space: pre-line;
+}
 /*Mohamed*/

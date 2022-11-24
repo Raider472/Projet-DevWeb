@@ -59,15 +59,20 @@
         margin-right: auto;
     }
 
-    .Bloc_2_images {
+/*Jean-Gab*/
+
+    .Bloc_2_images, .Bloc_3_images {
         display: flex;
         flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
     }
+
+
 }
 
 /*Nico*/
 
 /*Gabriel/*
-/*Jean-Gab*/
 
 /*Mohamed*/
