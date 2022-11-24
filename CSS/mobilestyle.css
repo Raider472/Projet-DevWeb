@@ -59,109 +59,21 @@
         margin-right: auto;
     }
 
-    .Bloc_2_images {
+/*Jean-Gab*/
+
+    .Bloc_2_images, .Bloc_3_images {
         display: flex;
         flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
     }
+
+
 }
 
 /*Nico*/
 
-/*Gabriel*/
-
-@media screen and (max-width: 1351px) {
-    .front_page_title {
-        font-size: xx-large;
-    }
-    
-    .nav_menu_video_game {
-        max-width: inherit;
-    }
-    
-    .nav_menu_video_game ol {
-        font-size: inherit;
-    }
-    
-    .article_crash_83 {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .figure_video_game_1 {
-        max-width: inherit;
-    }
-
-    .figure_video_game_1 > img {
-        max-width: 100%;
-    }
-    
-    .figure_video_game_2 {
-        max-width: inherit;
-    }
-
-    .figure_video_game_2 > img {
-        max-width: 100%;
-    }
-
-    .article_renaissance {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .figure_video_game_3 {
-        max-width: inherit;
-    }
-
-    .figure_video_game_3 > img {
-        max-width: 100%;
-    }
-
-    #article_3 div {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .legend_of_zelda_div img {
-        margin: 0;
-        padding: 0;
-    }
-
-    .legend_of_zelda_div p {
-        text-align: center;
-    }
-
-    .metroid_div p {
-        text-align: center;
-    }
-
-    .metroid_div img {
-        margin: 0;
-        padding: 0;
-    }
-
-    .castlevania_div img {
-        margin: 0;
-        padding: 0;
-    }
-
-    .honorable_mention {
-        padding: 0;
-    }
-
-    .game_list_end ul {
-        flex-direction: column;
-        padding: 0;
-    }
-
-    .game_list_end li {
-        padding: 0;
-    }
-
-    .game_list_end img {
-        max-width: 100%;
-    }
-}
-
+/*Gabriel/*
 /*Jean-Gab*/
 
 /*Mohamed*/
