@@ -89,6 +89,10 @@
         max-width: 100%;
     }
 
+    .text_align_video_game_1 {
+        text-align: center;
+    }
+
     .figure_video_game_2 {
         max-width: inherit;
     }
@@ -111,8 +115,9 @@
     }
 
     .legend_of_zelda_div img {
-        margin: 0;
+        margin: auto;
         padding: 0;
+        float: none;
     }
 
     .legend_of_zelda_div p {
@@ -124,12 +129,12 @@
     }
 
     .metroid_div img {
-        margin: 0;
+        margin: auto;
         padding: 0;
+        float: none;
     }
 
     .castlevania_div img {
-        margin: 0;
         padding: 0;
     }
 
