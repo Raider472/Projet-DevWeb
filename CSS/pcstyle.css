@@ -170,6 +170,12 @@ a:hover {
     justify-content: center;
 }
 
+img {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 figcaption {
     caption-side: bottom;
     text-align: center;
@@ -379,7 +385,6 @@ figcaption {
   margin-right: auto;
   font-size: 0.8em;
 }
-
 
 /*Mohamed*/
 
