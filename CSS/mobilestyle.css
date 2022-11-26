@@ -57,13 +57,7 @@
         margin-left: auto;
         margin-right: auto;
     }
-}
 
-/*Nico*/
-
-/*Gabriel*/
-
-@media screen and (max-width: 1351px) {
     .front_page_title {
         font-size: xx-large;
     }
@@ -154,11 +148,7 @@
     .game_list_end img {
         max-width: 100%;
     }
-}
 
-/*Jean-Gab*/
-
-@media screen and (max-width: 1351px) {
     .Bloc_2_images, .Bloc_3_images {
         display: flex;
         flex-direction: column;
@@ -166,5 +156,3 @@
         margin-right: auto;
     }
 }
-
-/*Mohamed*/

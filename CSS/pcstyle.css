@@ -236,21 +236,6 @@ figcaption {
     color: #00EEFF;
 }
 
-
-/* -----FONT------ */
-
-@font-face {
-    font-family: 'VT323';
-    src: url('../CSS/fonts/VT323-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-/*Nico*/
-
-/*Gabriel*/
-
 .title_video_game {
     text-align: center;
     text-decoration: underline;
@@ -394,9 +379,6 @@ figcaption {
     max-width: 100%;
 }
 
-
-/*Jean-Gab*/
-
 .Bloc_2_images {
     display: flex;
     justify-content: space-evenly;
@@ -413,8 +395,6 @@ figcaption {
   margin-right: auto;
   font-size: 0.8em;
 }
-
-/*Mohamed*/
 
 #possibilities {
     display: flex;
@@ -551,4 +531,14 @@ figcaption {
 #possibilities p {
     color:#444;
     font-size: 5px;
+}
+
+/* -----FONT------ */
+
+@font-face {
+    font-family: 'VT323';
+    src: url('../CSS/fonts/VT323-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
