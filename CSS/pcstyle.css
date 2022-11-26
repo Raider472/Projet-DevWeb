@@ -2,9 +2,7 @@ body {
     font-family: VT323, monospace, arial, helvetica, sans-serif;
     margin: 0 0 2em 0;
     min-height: 100vh;
-    display: block;
     color: whitesmoke;
-    flex-direction: column;
     background-image: url(../CSS/images-css/fond_site_web.png);
     background-size: 100%;
     line-height: 1.5em;
@@ -166,16 +164,10 @@ a:hover {
     color: #00EEFF;
 }
 
-img {
+.sports_media {
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-video {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 100%;
+    justify-content: center;
 }
 
 figcaption {
