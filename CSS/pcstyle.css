@@ -214,6 +214,28 @@ figcaption {
     font-size: 55px;
 }
 
+.retours_en_haut {
+    margin-top: 4em;
+    margin-bottom: 1em;
+}
+
+.retour_en_haut > a:visited {
+    font-size: 28px;
+    color: #cc00ff;
+    margin-top: 5em;
+}
+
+.retour_en_haut > a:link {
+    font-size: 28px;
+    color: #cc00ff;
+    margin-top: 5em;
+}
+
+.retour_en_haut > a:hover {
+    color: #00EEFF;
+}
+
+
 /* -----FONT------ */
 
 @font-face {
