@@ -166,14 +166,19 @@ a:hover {
 
 .sports_media {
     display: flex;
-    max-width: 100%;
     justify-content: center;
 }
+
+.sports_media > video {
+    max-width: 100%;
+}
+
 
 img {
     display: flex;
     margin-left: auto;
     margin-right: auto;
+    max-width: 100%;
 }
 
 figcaption {
