@@ -155,4 +155,17 @@
         margin-left: auto;
         margin-right: auto;
     }
+
+    #possibilities {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .div_movie_1 {
+        max-width: 85%;
+    }
+
+    .div_movie_2 {
+        max-width: 85%;
+    }
 }
