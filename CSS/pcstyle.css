@@ -400,6 +400,10 @@ figcaption {
     border-bottom: solid white;
 }
 
+.Text_genre_musique{
+    text-shadow: green 15px 15px 15px, green 0px 10px 10px;
+}
+
 .Text_genre_musique:hover{
     color: #00EEFF;
 }
