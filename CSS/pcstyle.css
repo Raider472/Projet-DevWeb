@@ -401,7 +401,7 @@ figcaption {
 }
 
 .Text_genre_musique{
-    text-shadow: green 15px 15px 15px, green 0px 10px 10px;
+    text-shadow: magenta 0px 15px 25px, magenta 0px -15px 25px, magenta 5px 0px 10px;
 }
 
 .Text_genre_musique:hover{
